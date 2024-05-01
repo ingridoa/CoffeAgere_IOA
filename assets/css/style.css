@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Mono&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.menu__link {
+  text-decoration: none;
+  color: var(--color-spanish-grey);
+  margin: 15px;
+}
+
+body {
+  font-family: "Pt mono", "Roboto";
+}
+
+.buttons__button--inicio {
+  position: absolute;
+  right: 13%;
+  padding: 0.5%;
+  background-color: var(--color-white);
+  color: grey;
+}
+
+.buttons__button--reg {
+  position: absolute;
+  right: 6%;
+  padding: 0.5%;
+  background-color: var(--color-shiny-shamrock);
+  color: var(--color-white);
+}
+
+:root {
+  --color-white: #fff;
+  --color-issabeline: #eeeded;
+  --color-spanish-grey: #989797;
+  --color-coral: #FA824C;
+  --color-buff: #F1DD7B;
+  --color-vanilla: #F5E7A1;
+  --color-flame: #E4572E;
+  --color-ligh-red-ochre: #E87554;
+  --color-pastel-pink: #F2B2A0;
+  --color-shiny-shamrock: #4CA866;
+  --color-turquoise-green: #9DCFAB;
+  --color-pastel-grey: #8DDFC7;
+  --color-blue-de-france: #3C91E6;
+  --color-blue-jean: #5FA5EA;
+  --color-jordy-blue: #82B9EF;
+  --color-black: #000000;
+  --color-outer-space: #454545;
+  --color-quick-silver: #A2A2A2;
+}
+
+.logo {
+  display: inline-block;
+  vertical-align: middle;
+  width: 10%;
+}
+
+.menu {
+  display: inline-block;
+}
+
+.logo__init {
+  width: 20%;
+  margin-left: 50%;
+}
+
+header {
+  background-color: #f2f2f2;
+  padding: 20px;
+  width: 100%;
+  height: 12%;
+}
+
+.container {
+  width: 70%;
+  position: relative;
+}
+
+.container__picture {
+  width: 100%;
+  object-fit: cover;
+}
+
+.informacion {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: white;
+  padding: 15px;
+}
+
+.informacion div {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.informacion__cantidad {
+  font-size: 200%;
+}
+
+.informacion__item {
+  width: 30%;
+  font-size: 80%;
+}
+
+main {
+  position: relative;
+}
+
+.titulo-inicio {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 30%;
+  height: 100%;
+  text-align: justify;
+}
+
+.titulo-inicio__titulo {
+  font-size: 5rem;
+  font-weight: 100;
+}
+
+.titulo-inicio__parrafo {
+  margin-left: 20%;
+  margin-top: 5%;
+}
+
+.cuadro-agere {
+  width: 5rem;
+  height: 5rem;
+  background-color: var(--color-buff);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.cuadro-agere--icon {
+  width: 5rem;
+  height: 5rem;
+  background-color: var(--color-flame);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+/*# sourceMappingURL=style.css.map */
